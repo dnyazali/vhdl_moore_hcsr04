@@ -2,7 +2,6 @@
 -- Author        : dnyazali
 -- Date          : 14 SEPT 2019
 -- Target Devices: terasIC DE10-Lite (10M50DAF484C7G)
--- Component: hcsr04.vhd
 -- Design Name   : hcsr04.vhd
 -----------------
 

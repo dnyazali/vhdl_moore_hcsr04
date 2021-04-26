@@ -1,10 +1,10 @@
 # vhdl_moore_hcsr04
-A Moore State Machine which calculates distance, written in VHDL.<br>
+A Moore State Machine which calculates distance using HC-SR04 module, written in VHDL.<br>
 
 ### Design:
 The design is based on a state machine that calculates distances using an external HC-SR04 module.<br>
 When a calculation is complete, the data processed and passed on to two 7-segment displays.<br>
-The state machine is based on a Moore design where the signal transmission to the registers is synchronous, with four inputs and nine outputs.
+The state machine is based on a Moore design where the signal transmission to the registers is synchronous, with four inputs and seven outputs.
 
 ### I/Os
 <table>
