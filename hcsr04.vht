@@ -47,7 +47,7 @@ PORT (
         o_led9 : BUFFER STD_LOGIC;
         o_seg_cms : BUFFER STD_LOGIC_VECTOR(7 DOWNTO 0);
         o_seg_ms : BUFFER STD_LOGIC_VECTOR(7 DOWNTO 0);
-        o_sonar_trig : BUFFER STD_LOGIC;
+        o_sonar_trig : BUFFER STD_LOGIC
         );
 END COMPONENT;
 BEGIN
@@ -64,7 +64,7 @@ BEGIN
         o_led9 => o_led9,
         o_seg_cms => o_seg_cms,
         o_seg_ms => o_seg_ms,
-        o_sonar_trig => o_sonar_trig,
+        o_sonar_trig => o_sonar_trig
         );
 
 -- clock setup
@@ -74,7 +74,7 @@ begin
     WAIT FOR sys_clk_period/2;
     i_clk_50 <= '1';
     WAIT FOR sys_clk_period/2;
-end process clock;
+end process;
 ---------------------------------
 
 -- main process
